@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Inscription sur PetGram - Créez le profil de votre animal">
+    <title>
+        PetGram 🐾 - Inscription
+    </title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>
+                🐾 PetGram
+            </h1>
+            <h2>
+                Créez votre compte gratuitement
+            </h2>
+            <form>
+                <fieldset>
+                    <legend> 👤 Vos informations</legend>
+                    <div>
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
+                    </div>
+                    <div>
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                    </div>
+                    <div>
+                        <label for="emailInscription">📧 Adresse email</label>
+                        <input type="email" id="emailInscription" name="email" placeholder="votre@email.com">
+                    </div>
+                    <div>
+                        <label for="telephone">📱Téléphone (optionnel)</label>
+                        <input type="tel" id="telephone" name="telephone" placeholder="+216 XX XXX XXX">
+                    </div>
+                    <div>
+                        <label for="dateNaissance">🎂Date de naissance</label>
+                        <input type="date" id="dateNaissance" name="dateNaissance">
+                    </div>
+                    <div>
+                        <label for="mdp">🔒Mot de passe</label>
+                        <input type="password" id="mdp" name="motdepasse" placeholder="Minimum 8 caractères">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>🐾Votre animal</legend>
+                    <div>
+                        <label for="nomAnimal">Prénom de votre animal</label>
+                        <input type="text" id="nomAnimal" name="nomAnimal">
+                    </div>
+                    <div>
+                        <label for="espece">🐾 Espèce</label>
+                        <select id="espece" name="espece">
+                              <option value="">-- Choisissez l'espèce --</option>
+                              <option value="chien"> 🐶 Chien</option>
+                              <option value="chat"> 🐱 Chat</option>
+                              <option value="lapin"> 🐰 Lapin</option>
+                              <option value="oiseau"> 🐦 Oiseau</option>
+                              <option value="poisson"> 🐟 Poisson</option>
+                              <option value="reptile"> 🦎Reptile</option>
+                              <option value="autre"> 🐾 Autre</option>
+                            </select>
+                    </div>
+                    <div>
+                        <label for="race">Race</label>
+                        <input type="text" id="race" name="race">
+                    </div>
+                    <div>
+                        <label for="age">Âge (en années)</label>
+                        <input type="number" id="age" name="age" min="0" max="30" placeholder="Ex: 3">
+                    </div>
+                    <div>
+                        <label>Sexe de l'animal</label>
+                        <div>
+                          <span>
+                            <input type="radio" name="sexeAnimal" id="femelle" value="femelle">
+                            <label for="femelle">Femelle ♀️ </label>
+                          </span>
+                          <span>
+                            <input type="radio" name="sexeAnimal" id="male" value="male">
+                            <label for="male">Mâle ♂️</label>
+                          </span>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="bio"> 📝 Description - Bio de l'animal</label>
+                        <textarea id="bio" name="bio" rows="4" cols="40" placeholder="Décrivez la personnalité et les goûts de votre animal..."></textarea>
+                    </div>
+                </fieldset>
+            <fieldset>
+                    <legend>
+                      Préférences
+                    </legend>
+
+                    <p>
+                      Quels types de contenu souhaitez-vous voir ?
+                    </p>
+
+                    <div>
+                      <label> <input type="checkbox" name="prefs" value="chiens"> 🐶Publications de chiens </label>
+                      <label> <input type="checkbox" name="prefs" value="chats" >  🐱Publications de chats </label>
+                      <label> <input type="checkbox" name="prefs" value="autres"> 🐾 Autres animaux</label>
+                    </div>
+            </fieldset>
+
+                <input type="submit" value="🐾 Créer mon compte">
+                <input type="reset" value="Effacer le formulaire">
+
+            </form>
+            
+            <div>
+                <p> Déjà inscrit ? <a href="login.html"> Connectez-vous ici </a> </p>
+                <p> <a href="index.html"> Retour à l'accueil </a> </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
