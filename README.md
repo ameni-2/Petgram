@@ -1,2 +1,4 @@
 # Petgram
-Un réseau social pr les animaux où on crée pr eux des profils et on publie des images , vidéos ... On peut partager aussi des expériences et des bon plans pr aider les autres propriétaires d'animaux . Les profils sont sécurisés lors de la connexion et on peut liker et commenter les posts sur le feed . On peut envoyer des invitations aussi et échanger des messages . 
+Petgram est une application web de mise en relation pour animaux de compagnie, inspirée de Bumble. Elle permet aux propriétaires d'animaux de créer un profil pour leur animal (nom, espèce, race, âge, photo) et de swiper sur les profils d'autres animaux près de chez eux.
+Quand deux propriétaires swipent "oui" sur l'animal de l'autre, c'est un match — ils reçoivent une notification et peuvent commencer à discuter directement via le chat intégré pour organiser une rencontre entre leurs animaux.
+L'application supporte tous les types d'animaux et propose des filtres de recherche par race, âge et localisation. 
