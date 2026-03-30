@@ -110,3 +110,33 @@ header nav ul li a.active {
   display: inline-block;
 }
 .btn-primary:hover { background: var(--primary-dark); border-color: var(--primary-dark); color: #fff; }
+
+footer {
+  margin-top: auto;
+  background: var(--text);
+  color: #E8D8CC;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+footer div:first-child {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  color: var(--primary-light);
+}
+
+footer div:nth-child(2) {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer div:nth-child(2) a { color: #C8B0A0; font-size: .9rem; transition: color var(--transition); }
+footer div:nth-child(2) a:hover { color: var(--primary-light); }
+
+footer div:last-child { font-size: .82rem; color: #6A5040; }
