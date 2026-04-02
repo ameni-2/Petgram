@@ -1,0 +1,32 @@
+.features {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.feature-card {
+    flex: 1;
+    background: var(--bg-card);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    border: 1.5px solid var(--border);
+    transition: box-shadow var(--transition);
+}
+
+.feature-card:hover {
+    box-shadow: var(--shadow-lg);
+}
+
+.feature-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    color: var(--text);
+    margin-bottom: .75rem;
+}
+
+.feature-card p {
+    font-size: .9rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
